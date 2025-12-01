@@ -8,7 +8,7 @@ const Navbar = () => {
     const [show, setShow] = useState(false);
   return (
    <nav>
-    <div className="logo">HUYI</div>
+    <div className="logo">BINZA</div>
     {/* navlinks ----->   navLinks */}
     <div className={show ? "navLinks showmenu" : "navLinks"}>
     <div className="links">

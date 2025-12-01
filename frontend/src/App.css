@@ -39,6 +39,7 @@ nav .logo {
   display: flex;
   align-items: center;
   font-size: 2rem;
+  font-weight: 700;
 }
 nav .navLinks {
   flex: 2;
@@ -55,8 +56,8 @@ nav .navLinks .links {
 nav .navLinks .links a {
   text-decoration: none;
   color: #555;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 21px;
+  font-weight: 450;
   letter-spacing: 1.4px;
 }
 nav .navLinks .links a:hover {
@@ -164,7 +165,7 @@ nav svg {
   align-items: center;
   background: url(/background.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: right;
   padding: 0 15px;
 }
@@ -186,8 +187,8 @@ nav svg {
   width: 100%;
 }
 .heroSection .container .banner .title {
-  font-size: 8.5rem;
-  font-weight: 200;
+  font-size: 6.5rem;
+  font-weight: 270;
 }
 .heroSection .container .banner .textAndLogo {
   width: 50%;
@@ -563,8 +564,8 @@ nav svg {
 }
 /* chngeeeeeeeee */
 .menu .container .dishes_container .card:hover img {
-  transition: 0.3s;
-  transform: scale(1.40);
+  transition: 0.5s;
+  transform: scale(1.20);
 }
 @media (max-width: 1520px) {
   .menu .container {
